@@ -1,15 +1,7 @@
 #pragma once
 
-#include "../errorHandler/errorHandler.h"
-
-// Structures
-struct Token {
-    int lettersSize = 0;
-    char* letters;
-};
-
+#include "../compiler.h"
 
 // Function Prototypes
-Token* runLexer(char* filename, Error*& errors, int& errorsSize);
-// void runLexer(char* filename, Error*& errors, int& errorsSize);
+void runLexer(std::ifstream& file, CompilerContext& compilerContext);
 

@@ -1,11 +1,11 @@
-# Nullation 
-> Current Version: `v0.1.0`
+# The Ignium Programmng Language 
 
-One programming langauge for eveything.
+A user defined language where the user has more control.
 
 ---
 
-### Compiler Version (v1)
+### Compiler
+
+- Version: v1 
 - Written in C++
 - Complied with gcc
-
